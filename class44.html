@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CSS PSEUDO Elements </title>
+        <style>
+            body{
+                background-color: aquamarine;
+            }
+            h1::first-letter{
+                color: black; 
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 3cm;
+                text-shadow: 5px 8px 9px purple;
+            }
+            p::first-line{
+                color:peru;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: white;
+                text-shadow: 3px 5px 9px black;
+            }
+            h3::selection{
+                color: blanchedalmond;
+                background-color: blueviolet;
+                font-size: 1cm;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1> CSS PSEUDO Elements </h1>
+    <p> 
+        A pseudo-class can be defined as a keyword which is combined to a 
+        selector that defines the special state of the selected elements. Unlike the 
+        pseudo-classes, the pseudo-elements are used to style the specific part of    
+        an element, whereas the pseudo-classes are used to style the element. </p>
+        <h2> Welcome to here </h2>
+        <h3>The widely used CSS pseudo-elements are as follows:
+            <br>
+            <br>
+            ● ::first-letter (:first-letter) - It selects the first letter of the text.
+            <br>
+            <br>
+            ● ::first-line (:first-line) - It styles the first line of the text.
+            <br>
+            <br>
+            ● ::before (:before) - It is used to add something before the element's 
+            content.
+            <br>
+            <br>
+            ● ::after (:after) - It is used to add something after the element's 
+            content.
+            <br>
+            <br>
+            ● ::selection - It is used to select the area of an element that is selected
+            by the user. </h3>
+    </body>
+</html>
